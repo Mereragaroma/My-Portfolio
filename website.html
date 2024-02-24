@@ -1,0 +1,223 @@
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scalable=1.0">
+        <title>Myweb</title>
+      <link rel="stylesheet" href="web.css">
+      <script src="https://kit.fontawesome.com/78bb1bf748.js" crossorigin="anonymous"></script>
+      </head>
+      <body>
+      
+        <div id="header">
+          <div class="container">
+            <nav>
+              <img src="images/20230307_090219-03_resized.jpeg" class="mpicture">
+              <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+              </ul>
+              <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        <div class="header-text">
+          <p>UI/UX designer</p>
+          <h1>Hi I'm <span class="halluu">Merera</span><br>from Ethiopia</h1>
+        </div>
+        </div>
+        </div>
+
+
+        <div id="about">
+          <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+                <img src="images/mmmwe b.jpg" > 
+              </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hey,I'm programmer Merera. I've been working on developing full stack 
+                  websites for many years.Here are some of my works and projects.
+                  
+                
+      
+                </p>
+              
+            
+                <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>UI/UX</span><br>Full stack web developer</li>
+                  <li><span>Web Development</span><br>Web app D evelopment</li>
+                  <li><span>App Development</span><br>Building Android/iOS apps</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experiance">
+                <ul>
+                  <li><span>Currently</span><br>Software engineering student at Jigjiga University</li>
+                  <li><span>2021-2022</span><br>Training on web development</li>
+                  <li><span>2021-2022</span><br>Training on web development</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>Internship</span><br> at INSA Ethiopia</li>
+                  <li><span>Internship</span><br> at INSA Ethiopia</li>
+                  <li><span>Internship</span><br> at INSA Ethiopia</li>
+                </ul>
+              </div>
+              
+            
+              </div>
+            </div>
+          </div>
+        </div>
+
+       <div id="services">
+
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+             <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>WEb Design</h2>
+              <p>Designing and developing websites for business purposes and 
+                personal portfolio websites.
+                 
+            
+              </p>
+              <a href="#">Learn more</a>
+             </div>
+             <div>
+              <i class="fa-sharp fa-solid fa-crop-simple"></i>
+              <h2>UI/UX Design</h2>
+              <p>Designing UI/UX websites for business companies and
+                personal portfolio websites. 
+            
+              </p>
+              <a href="#">Learn more</a>
+             </div>
+             <div>
+              <i class="fa-brands fa-app-store-ios"></i>
+              <h2>App Design</h2>
+              <p>Designing and developing mobile applicatons.
+              </p>
+              <a href="#">Learn more</a>
+             </div>
+          </div>
+
+        </div>
+       </div>
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>I'm Merera, Full stack web developer and mobile app developer.
+            Download it from playstore
+          </p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-2.png">
+        <div class="layer">
+          <h3>E-commerce App</h3>
+          <p>I'm Merera, Full stack web developer and mobile app developer.
+            Download it from playstore
+          </p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+          <h3>Online-Shopping App</h3>
+          <p>I'm Merera, Full stack web developer and mobile app developer.
+            Download it from playstore
+          </p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>mereragaroma1@gmail.com</p>
+        <p><i class="fas fa-phone-square-alt"></i>0942421457</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/merera.garoma.9"><i class="fa-brands fa-facebook"></i></i></a>
+          <a href="https://t.me/Marara42"><i class="fa-brands fa-telegram"></i></a>
+          <a href=""><i class="fab fa-twitter-square"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          
+        </div>
+        <a href="images/My CV.(1).pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @ Merera.<i class="fa-solid fa-heart"></i>Web Developer</p>
+  </div>
+</div>
+
+
+    <script>
+
+      var tablinks = docuent.getElementsByClassName("tab-links");
+      var tabcontents = docuent.getElementsByClassName("tab-contents");
+      
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+  sidemenu.style.right = "0"
+}
+function closemenu(){
+  sidemenu.style.right = "-200px";
+}
+
+    </script>
+
+      </body>
+    </html>
+
+
+        
